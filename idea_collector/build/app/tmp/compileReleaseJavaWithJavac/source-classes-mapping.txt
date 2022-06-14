@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/iqsoft/ideacollector/BuildConfig.java
+ com.iqsoft.ideacollector.BuildConfig
