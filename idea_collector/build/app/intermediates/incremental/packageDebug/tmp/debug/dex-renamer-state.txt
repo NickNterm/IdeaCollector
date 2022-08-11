@@ -1,4 +1,4 @@
-#Mon Jun 13 14:29:20 EEST 2022
-base.0=/home/iqsoft/Desktop/programming/flatterProjects/idea_collector/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Thu Aug 11 14:10:40 EEST 2022
+base.0=/home/nick/git/IdeaCollector/idea_collector/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

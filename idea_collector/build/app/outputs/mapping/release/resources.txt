@@ -133,7 +133,6 @@ Referenced Strings:
   HAS_ENABLED_STATE
   HAS_IMPLICIT_SCROLLING
   HAS_TOGGLED_STATE
-  HC_PLATFORM_VIEW
   HEAVY_IMPACT
   HINGE
   HORIZONTAL
@@ -243,6 +242,7 @@ Referenced Strings:
   PASTE
   PHONE
   PLAIN_TEXT
+  PLATFORM_VIEW
   POLL_FAILED
   PORTRAIT_DOWN
   PORTRAIT_UP
@@ -254,6 +254,7 @@ Referenced Strings:
   PUBLIC
   PlatformChannel
   PlatformPlugin
+  PlatformViewWrapper
   PlatformViewsChannel
   PlatformViewsController
   PrivateApi
@@ -374,7 +375,6 @@ Referenced Strings:
   UTF8
   UseSparseArrays
   V:
-  VD_PLATFORM_VIEW
   VERTICAL
   VISIBLE_PASSWORD
   WORDS
@@ -411,7 +411,6 @@ Referenced Strings:
   activityFilters
   adapter
   addSuppressed
-  addView
   addressCity
   addressCountry
   addressLocality
@@ -466,6 +465,7 @@ Referenced Strings:
   blockingTasksInBuffer
   boolean
   bounds
+  brieflyShowPassword
   buffer
   byte
   cache
@@ -519,6 +519,7 @@ Referenced Strings:
   creditCardSecurityCode
   currentDisplay
   dark
+  dart_entrypoint_args
   data
   databases
   debug
@@ -568,6 +569,7 @@ Referenced Strings:
   extendedPostalCode
   extensionCallback
   extent
+  false
   familyName
   feature
   feature.rect
@@ -651,8 +653,10 @@ Referenced Strings:
   intent
   invokeSuspend
   io.flutter.Entrypoint
+  io.flutter.EntrypointUri
   io.flutter.InitialRoute
   io.flutter.embedding.android.EnableSk...
+  io.flutter.embedding.android.LeakVM
   io.flutter.embedding.android.NormalTheme
   io.flutter.embedding.android.OldGenHe...
   io.flutter.embedding.android.SplashSc...
@@ -804,6 +808,7 @@ Referenced Strings:
   oemFeature
   oemFeature.bounds
   off
+  offset
   oldText
   on
   onActivityResult
@@ -887,8 +892,6 @@ Referenced Strings:
   recoveredInTransaction
   rect
   registerWith
-  removeView
-  removeViewImmediate
   repeatCount
   resize
   resizeColumn
@@ -934,6 +937,7 @@ Referenced Strings:
   setRemoveOnCancelPolicy
   setSidecarCallback
   short
+  show_password
   sidecarAdapter
   sidecarCompat
   sidecarDeviceState
@@ -980,20 +984,20 @@ Referenced Strings:
   throwableMethods
   token
   tooltip
+  top
   touch
   tracker
   transform
   transformer
   transition_animation_scale
   transparent
+  true
   truncated
   type
   uninstallDeferredComponent
   uniqueIdentifier
   update
-  updateViewLayout
   username
-  usesVirtualDisplay
   value
   vendorId
   verticalText
@@ -1140,7 +1144,7 @@ drawable:notification_icon_background:2130968584 => [color:notification_icon_bg_
 drawable:notification_tile_bg:2130968587 => [drawable:notify_panel_notification_icon_bg:2130968588]
 layout:notification_action:2131165185 => [style:Widget_Compat_NotificationActionContainer:2131361799, dimen:notification_action_icon_size:2130903047, style:Widget_Compat_NotificationActionText:2131361800]
 layout:notification_action_tombstone:2131165186 => [style:Widget_Compat_NotificationActionContainer:2131361799, dimen:notification_action_icon_size:2130903047, style:Widget_Compat_NotificationActionText:2131361800]
-layout:notification_template_custom_big:2131165187 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, dimen:notification_main_column_padding_top:2130903053, dimen:notification_content_margin_start:2130903050, dimen:notification_right_side_padding_top:2130903056, layout:notification_template_part_time:2131165190, layout:notification_template_part_chronometer:2131165189, style:TextAppearance_Compat_Notification_Info:2131361795, layout:notification_template_icon_group:2131165188]
+layout:notification_template_custom_big:2131165187 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, layout:notification_template_icon_group:2131165188, dimen:notification_right_side_padding_top:2130903056, layout:notification_template_part_time:2131165190, layout:notification_template_part_chronometer:2131165189, style:TextAppearance_Compat_Notification_Info:2131361795, dimen:notification_main_column_padding_top:2130903053, dimen:notification_content_margin_start:2130903050]
 layout:notification_template_icon_group:2131165188 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, dimen:notification_big_circle_margin:2130903049, dimen:notification_right_icon_size:2130903055]
 layout:notification_template_part_chronometer:2131165189 => [style:TextAppearance_Compat_Notification_Time:2131361797]
 layout:notification_template_part_time:2131165190 => [style:TextAppearance_Compat_Notification_Time:2131361797]
@@ -1236,11 +1240,11 @@ attr:activityAction:2130771968,
    attr:android_endY:-1,
    attr:android_tileMode:-1,
    attr:android_offset:-1
-Skipped unused resource res/drawable/notification_bg.xml: 532 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/drawable/notification_bg_low.xml: 532 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/drawable/notification_icon_background.xml: 372 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/drawable/notification_tile_bg.xml: 304 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/drawable-v21/notification_action_background.xml: 1180 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable/notification_bg.xml: 783 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_bg_low.xml: 785 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_icon_background.xml: 334 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_tile_bg.xml: 313 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-v21/notification_action_background.xml: 2424 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
@@ -1256,17 +1260,17 @@ Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png:
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/layout/custom_dialog.xml: 612 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_action.xml: 1092 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v17/notification_action.xml: 1156 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_action_tombstone.xml: 1268 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v17/notification_action_tombstone.xml: 1332 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v16/notification_template_custom_big.xml: 3012 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v17/notification_template_custom_big.xml: 3208 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_template_icon_group.xml: 392 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_template_part_chronometer.xml: 440 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout/notification_template_part_time.xml: 440 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v21/notification_action.xml: 1052 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 1228 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 2456 bytes (replaced with small dummy file of size 104 bytes)
-Skipped unused resource res/layout-v21/notification_template_icon_group.xml: 988 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/custom_dialog.xml: 850 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_action.xml: 2311 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v17/notification_action.xml: 2473 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_action_tombstone.xml: 2772 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v17/notification_action_tombstone.xml: 2934 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v16/notification_template_custom_big.xml: 8676 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v17/notification_template_custom_big.xml: 9585 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_template_icon_group.xml: 563 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_template_part_chronometer.xml: 635 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_template_part_time.xml: 622 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_action.xml: 2231 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 2692 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 6595 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_template_icon_group.xml: 2439 bytes (replaced with small dummy file of size 9 bytes)
